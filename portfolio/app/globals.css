@@ -1,25 +1,15 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap');
 @import "tailwindcss";
 
-
 :root {
-  --background: #ffffff;
+  --background: #fce7f3;
   --foreground: #171717;
   --font-sans: 'Fredoka', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
 
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #fce7f3;
     --foreground: #ededed;
   }
 }
