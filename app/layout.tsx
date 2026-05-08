@@ -15,6 +15,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Andreanne — Portfolio",
   description: "Portfolio of Andreanne Monique Gorres, Front-End Developer & Designer",
+
+  icons: {
+    icon: "/web-logo.png",
+  }
 };
 
 export default function RootLayout({

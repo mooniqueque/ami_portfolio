@@ -18,7 +18,6 @@ export default function Navbar() {
           </span>
           <span className="font-medium text-lg md:text-xl text-slate-900">Andreanne</span>
         </a>
-
         <div className="flex gap-6 items-center">
           <Link href="/" className="text-base md:text-xl font-medium text-slate-900 hover:text-pink-500 transition">
             Home
